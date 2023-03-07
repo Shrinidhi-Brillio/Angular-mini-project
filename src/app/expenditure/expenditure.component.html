@@ -1,0 +1,10 @@
+<p>expenditure works!</p>
+<html><head></head><body><div>
+    <form [formGroup] ="expenses" (ngSubmit)="expenditure()">
+        <div class="exp">Expenditure type</div>
+        <input type="text" class="expend" formcontrolname="expType">
+        <div class="exp-value">Expenditure value</div>
+        <input type="number" class="threshold" formcontrolname="expValue"><br>
+        <button type="submit" class="btn btn-primary">Submit</button><br><br>
+    </form>
+</div></body></html>

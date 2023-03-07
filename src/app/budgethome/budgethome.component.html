@@ -1,0 +1,47 @@
+<div class="budget-home">
+
+  <div class="header">
+      <h2 style="text-align: center;">Budget Management System</h2>
+      <div class="btn-text-right">
+          <button routerLink="/login" type="button" class="btn btn-primary">Log out</button>
+      </div>
+  </div>
+
+  <div class="income-data">
+      <div class="show-data">
+          <ul>
+              <li>Your Income:{{userDetails.income}}
+              </li>
+              <li>Your Threshold:{{userDetails.threshold}}</li>
+              <li>Total expense Amount:{{userDetails.currentexpenditure}}</li>
+              <li>Remaining Amount:{{userDetails.income - userDetails.currentexpenditure}}</li>
+          </ul>
+
+      </div>
+      <div class="update-data">
+          <form [formGroup]="updateForm" (ngSubmit)="updateamt()">
+              <label class="up-income">Update income</label>
+              <input type="number" class="amount" formControlName="updateamount"><br/><br/>
+              <label class="up-threshold">Update threshold</label>
+              <input type="number" class="threshold" formControlName="updatethreshold"><br/><br/>
+              <button type="submit" id="sub" class="btn btn-primary">Submit</button><br><br>
+              <button routerLink="/expenditure" type="button" class="btn btn-primary" id="exp-btn">Go to expenditure</button>
+
+          </form>
+      </div>
+
+  </div>
+  <div class="svg-exp-btn">
+
+     
+
+      <!-- <button [routerLink]="['/savings']" type="button" class="btn btn-primary" id="svg-btn">Go to savings</button>
+
+
+  </div>
+
+
+
+</div></body></html> -->
+
+

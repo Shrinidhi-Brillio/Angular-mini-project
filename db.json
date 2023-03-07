@@ -1,0 +1,72 @@
+{
+  "RegisteredUsers": [
+    {
+      "fullname": "Sashi",
+      "email": "shri@gmail.com",
+      "password": "56tgfd",
+      "mobile": 67555487998,
+      "id": 1,
+      "income": 800,
+      "threshold": 600,
+      "currentexpenditure": 1000,
+      "expenses": []
+    },
+    {
+      "fullname": "Shrinidhi",
+      "email": "shrinidhi@gmail.com",
+      "password": "6tyfd",
+      "mobile": 8904858900,
+      "id": 2,
+      "income": 20000,
+      "threshold": 18000,
+      "currentexpenditure": "0",
+      "expenses": [
+        {
+          "": [
+            ""
+          ]
+        },
+        {
+          "": [
+            ""
+          ]
+        },
+        {
+          "": [
+            ""
+          ]
+        },
+        {
+          "": [
+            ""
+          ]
+        },
+        {
+          "": [
+            ""
+          ]
+        },
+        {
+          "": [
+            ""
+          ]
+        },
+        {
+          "": [
+            ""
+          ]
+        },
+        {
+          "": [
+            ""
+          ]
+        },
+        {
+          "": [
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}
