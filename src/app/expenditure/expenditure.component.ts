@@ -15,7 +15,7 @@ export class ExpenditureComponent {
     this.login.userobs.subscribe((result) => {
       this.userDetails = result;
       console.log(result);
-    });
+    });  4481-0A9A
   }
   ngOnInit(): void {
     this.expenses = this.formBuilder.group({
